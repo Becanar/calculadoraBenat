@@ -303,7 +303,7 @@
         app:layout_constraintTop_toTopOf="@id/gh6"
         />
     <TextView
-        android:id="@id/screen"
+        android:id="@+id/screen"
         style="@style/ScreenNumber"
         android:layout_width="0dp"
         android:layout_height="0dp"
