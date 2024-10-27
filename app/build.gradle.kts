@@ -6,7 +6,6 @@ plugins {
 android {
     namespace = "com.example.calculadora_benat"
     compileSdk = 34
-
     defaultConfig {
         applicationId = "com.example.calculadora_benat"
         minSdk = 24
@@ -32,6 +31,9 @@ android {
     }
     kotlinOptions {
         jvmTarget = "1.8"
+    }
+    buildFeatures {
+        viewBinding = true
     }
 }
 
