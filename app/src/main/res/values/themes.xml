@@ -6,4 +6,20 @@
     </style>
 
     <style name="Theme.Calculadora_Benat" parent="Base.Theme.Calculadora_Benat" />
+    <style name="NumberButton">
+        <item name="android:background">@color/gray</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+    <style name="SymbolButton">
+        <item name="android:background">@color/gray</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Separador">
+        <item name="android:background">@color/gray</item>
+        <item name="android:layout_width">1dp</item>
+        <item name="android:elevation">3dp</item>
+    </style>
 </resources>
